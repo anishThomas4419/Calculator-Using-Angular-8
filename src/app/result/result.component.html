@@ -1,0 +1,5 @@
+<div class="form-group result">
+  <label class="sr-only">Input</label>
+  <input type="text" name="calculationString" class="form-control calculation" #operand [(ngModel)]="calculationString"/>
+  <input type="text" name="result" class="form-control result" [(ngModel)]="calculationResult" (click)="operand.focus()"/>
+</div>
