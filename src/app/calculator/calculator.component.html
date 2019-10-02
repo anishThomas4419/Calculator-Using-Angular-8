@@ -1,0 +1,10 @@
+<div class="calculatorContainer">
+<div class="col-sm-12">
+  <app-result [calculationResult] ="result" [calculationString]="calculationString"></app-result>
+</div>
+  <div class='col-sm-4 calculatorContainer'>
+    <div class="row">
+      <button type="button" *ngFor="let keys of calculatorKeys" [ngClass]="[keys.value==='='? 'calEqualHeight' :'', keys.value==='0'? 'calcZeroWidth' :'']" class="btn btn-dark mr-1 mb-1 calculatorKeys" #calKey [value]="keys.value" (click)="keyPressHandler(calKey)">{{keys.label}}</button>
+    </div>
+  </div>
+</div>
