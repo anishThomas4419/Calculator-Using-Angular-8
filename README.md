@@ -1,7 +1,7 @@
 # Calculator-Using-Angular-8
 Simple calculator using angular 8 and Bootstrap 4
 
-##Get Started
+## Get Started
 Clone the repositiory [CALCULATOR-USING-ANGULAR-8](https://github.com/anishThomas4419/Calculator-Using-Angular-8.git)
 ```
 git clone https://github.com/anishThomas4419/Calculator-Using-Angular-8.git
